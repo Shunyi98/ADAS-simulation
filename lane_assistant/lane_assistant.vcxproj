@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A89E8D09-FBA2-3B9D-AA33-C63412D08CDC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>lane_assistant</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\200_Projekte\TronisSDK\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lane_assistant.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lane_assistant</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\200_Projekte\TronisSDK\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lane_assistant.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lane_assistant</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\200_Projekte\TronisSDK\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lane_assistant.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lane_assistant</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\200_Projekte\TronisSDK\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lane_assistant.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lane_assistant</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\200_Projekte\TronisSDK\include;D:\200_Projekte\TronisSDK\include\3rd_party;D:\200_Projekte\TronisSDK\TronisCore\Public;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv-build;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\core\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgproc\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\video\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgcodecs\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\videoio\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\200_Projekte\TronisSDK\include;D:\200_Projekte\TronisSDK\include\3rd_party;D:\200_Projekte\TronisSDK\TronisCore\Public;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv-build;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\core\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgproc\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\video\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgcodecs\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\videoio\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\200_Projekte\TronisSDK\include;D:\200_Projekte\TronisSDK\include\3rd_party;D:\200_Projekte\TronisSDK\TronisCore\Public;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv-build;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\core\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgproc\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\video\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgcodecs\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\videoio\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\tronis_core.lib;..\..\..\lib\Release\tronis_grabber.lib;..\..\..\lib\Release\glfw3.lib;..\..\..\lib\Release\easy3d.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Debug\opencv_core401d.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Debug\opencv_imgproc401d.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Debug\opencv_highgui401d.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Debug\opencv_video401d.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Debug\opencv_videoio401d.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Debug\opencv_imgcodecs401d.lib;opengl32.lib;glu32.lib;..\..\..\lib\Release\glew.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\libjpeg-turbod.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\libwebpd.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\libpngd.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\libtiffd.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\libjasperd.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\IlmImfd.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Debug\opencv_imgproc401d.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Debug\opencv_core401d.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\zlibd.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\ittnotifyd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/200_Projekte/TronisSDK/build/bin/Debug/lane_assistant.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/200_Projekte/TronisSDK/build/bin/Debug/lane_assistant.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\200_Projekte\TronisSDK\include;D:\200_Projekte\TronisSDK\include\3rd_party;D:\200_Projekte\TronisSDK\TronisCore\Public;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv-build;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\core\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgproc\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\video\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgcodecs\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\videoio\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\200_Projekte\TronisSDK\include;D:\200_Projekte\TronisSDK\include\3rd_party;D:\200_Projekte\TronisSDK\TronisCore\Public;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv-build;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\core\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgproc\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\video\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgcodecs\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\videoio\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\200_Projekte\TronisSDK\include;D:\200_Projekte\TronisSDK\include\3rd_party;D:\200_Projekte\TronisSDK\TronisCore\Public;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv-build;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\core\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgproc\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\video\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgcodecs\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\videoio\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\tronis_core.lib;..\..\..\lib\Release\tronis_grabber.lib;..\..\..\lib\Release\glfw3.lib;..\..\..\lib\Release\easy3d.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_core401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_imgproc401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_highgui401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_video401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_videoio401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_imgcodecs401.lib;opengl32.lib;glu32.lib;..\..\..\lib\Release\glew.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Release\libjpeg-turbo.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Release\libwebp.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Release\libpng.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Release\libtiff.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Release\libjasper.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Release\IlmImf.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_imgproc401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_core401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Release\zlib.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Release\ittnotify.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/200_Projekte/TronisSDK/build/bin/Release/lane_assistant.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/200_Projekte/TronisSDK/build/bin/Release/lane_assistant.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\200_Projekte\TronisSDK\include;D:\200_Projekte\TronisSDK\include\3rd_party;D:\200_Projekte\TronisSDK\TronisCore\Public;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv-build;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\core\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgproc\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\video\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgcodecs\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\videoio\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_STATIC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\200_Projekte\TronisSDK\include;D:\200_Projekte\TronisSDK\include\3rd_party;D:\200_Projekte\TronisSDK\TronisCore\Public;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv-build;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\core\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgproc\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\video\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgcodecs\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\videoio\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\200_Projekte\TronisSDK\include;D:\200_Projekte\TronisSDK\include\3rd_party;D:\200_Projekte\TronisSDK\TronisCore\Public;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv-build;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\core\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgproc\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\video\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgcodecs\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\videoio\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\tronis_core.lib;..\..\..\lib\Release\tronis_grabber.lib;..\..\..\lib\Release\glfw3.lib;..\..\..\lib\Release\easy3d.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_core401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_imgproc401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_highgui401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_video401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_videoio401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_imgcodecs401.lib;opengl32.lib;glu32.lib;..\..\..\lib\Release\glew.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\libjpeg-turbod.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\libwebpd.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\libpngd.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\libtiffd.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\libjasperd.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\IlmImfd.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_imgproc401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_core401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\zlibd.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\ittnotifyd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/200_Projekte/TronisSDK/build/bin/MinSizeRel/lane_assistant.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/200_Projekte/TronisSDK/build/bin/MinSizeRel/lane_assistant.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\200_Projekte\TronisSDK\include;D:\200_Projekte\TronisSDK\include\3rd_party;D:\200_Projekte\TronisSDK\TronisCore\Public;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv-build;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\core\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgproc\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\video\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgcodecs\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\videoio\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\200_Projekte\TronisSDK\include;D:\200_Projekte\TronisSDK\include\3rd_party;D:\200_Projekte\TronisSDK\TronisCore\Public;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv-build;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\core\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgproc\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\video\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgcodecs\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\videoio\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\200_Projekte\TronisSDK\include;D:\200_Projekte\TronisSDK\include\3rd_party;D:\200_Projekte\TronisSDK\TronisCore\Public;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv-build;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\core\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgproc\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\video\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\imgcodecs\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\videoio\include;D:\200_Projekte\TronisSDK\extern\managed_opencv\src\managed_opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\tronis_core.lib;..\..\..\lib\Release\tronis_grabber.lib;..\..\..\lib\Release\glfw3.lib;..\..\..\lib\Release\easy3d.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_core401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_imgproc401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_highgui401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_video401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_videoio401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_imgcodecs401.lib;opengl32.lib;glu32.lib;..\..\..\lib\Release\glew.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\libjpeg-turbod.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\libwebpd.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\libpngd.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\libtiffd.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\libjasperd.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\IlmImfd.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_imgproc401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\lib\Release\opencv_core401.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\zlibd.lib;..\..\..\extern\managed_opencv\src\managed_opencv-build\3rdparty\lib\Debug\ittnotifyd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/200_Projekte/TronisSDK/build/bin/RelWithDebInfo/lane_assistant.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/200_Projekte/TronisSDK/build/bin/RelWithDebInfo/lane_assistant.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\200_Projekte\TronisSDK\apps\lane_assistant\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/200_Projekte/TronisSDK/apps/lane_assistant/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/200_Projekte/TronisSDK -BD:/200_Projekte/TronisSDK/build --check-stamp-file D:/200_Projekte/TronisSDK/build/apps/lane_assistant/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\200_Projekte\TronisSDK\build\apps\lane_assistant\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/200_Projekte/TronisSDK/apps/lane_assistant/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/200_Projekte/TronisSDK -BD:/200_Projekte/TronisSDK/build --check-stamp-file D:/200_Projekte/TronisSDK/build/apps/lane_assistant/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\200_Projekte\TronisSDK\build\apps\lane_assistant\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/200_Projekte/TronisSDK/apps/lane_assistant/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/200_Projekte/TronisSDK -BD:/200_Projekte/TronisSDK/build --check-stamp-file D:/200_Projekte/TronisSDK/build/apps/lane_assistant/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\200_Projekte\TronisSDK\build\apps\lane_assistant\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/200_Projekte/TronisSDK/apps/lane_assistant/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/200_Projekte/TronisSDK -BD:/200_Projekte/TronisSDK/build --check-stamp-file D:/200_Projekte/TronisSDK/build/apps/lane_assistant/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\200_Projekte\TronisSDK\build\apps\lane_assistant\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\200_Projekte\TronisSDK\apps\lane_assistant\lane_assistant.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\200_Projekte\TronisSDK\build\ZERO_CHECK.vcxproj">
+      <Project>{D0C34688-DB03-3AEA-A05C-4A6914EA27C7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
